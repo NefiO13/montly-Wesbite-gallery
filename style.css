@@ -5,6 +5,86 @@ font-weight: 400;
 font-style: normal;
 }
 
-card.body {
-    color: aqua;
+body{
+    background-color: rgb(255, 96, 123);
+}
+.btn{
+background-color:pink;
+border-color: aliceblue;
+}
+
+.card{
+    background-color: pink;
+}
+
+
+.navbar-nav a {
+    font-family: "silver-northern", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    font-style: normal;
+    text-align: center;
+    color: rgb(241, 95, 120);
+}
+
+.navbar-brand {
+    margin-left: 20px;
+}
+
+nav a {
+    font-family: "silver-northern", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    position: relative;
+    text-decoration: none;
+    color: rgb(241, 95, 120);
+}
+
+
+nav a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffa7a7;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+nav a:hover::before {
+    transform: scaleX(1);
+}
+
+nav div {
+    display: inline;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.waviy {
+    position: relative;
+}
+
+h1.pt-3{
+font-family: "aptly-medium-shadow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 100px;
+    color: rgb(241, 95, 120);
+}
+
+.sub-title{
+    font-family: "aptly-medium-shadow", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 60px;
+        color: rgb(241, 95, 120)
 }
